@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: myFont;
+  /* set name */
+  src: url(assets/ScienceGothic-VariableFont_CTRS,slnt,wdth,wght.ttf);
+  /* url of the font */
+}
+
+.myButton {
+  background-color: lightskyblue;
+  color: black;
+  font-size: 15px;
+  border-radius: 3px;
+  position: absolute;
+  font-family: myFont;
+}
