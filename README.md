@@ -3,6 +3,7 @@
 
 ## Description
 *I wanted to play around with the *Genetic Algorithms* Daniel Shiffman talks about in The Nature of Code. Basically, these algorithms try to mimic Darwinian natural selection in a rough, code-based way: species evolving generation after generation. In my case, I used a genetic algorithm to build a very (and I mean very) simple creature generator.*
+
 *Each creature’s traits (its *DNA*) are stored in an OOP class, which lets the genetic algorithm tweak the population’s characteristics every generation. The sketch starts with a first generation of six creatures. When the user hovers the cursor over one, its fitness value goes up—meaning it has a better chance of surviving into the next generation. When the user clicks the Evolve to Next Generation button, the creatures with the highest fitness become the genetic base for the new population. As the user keeps evolving generations, the creatures end up becoming either more diverse or oddly similar.*
 
 ## How to Run
